@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="post" asp-controller="Vemox" asp-action="SubmitForm">
+    <div class="form-group">
+        <label>กรอกค่า</label>
+        <input type="text" name="inputValue" class="form-control" required />
+
+        <input type="radio" id="SQL" name="language" value="SQL">
+        <label for="SQL">SQL</label><br>
+        <input type="radio" id="MQL" name="language" value="MQL">
+        <label for="MQL">MQL</label><br>
+
+    </div>
+    <button type="submit">Submit</button>
+</form>

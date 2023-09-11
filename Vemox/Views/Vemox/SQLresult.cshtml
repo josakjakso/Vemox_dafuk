@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "SQLresult";
+}
+
+
+<p>Query: @ViewBag.outputQuery</p>
+<p>Result: @ViewBag.outputResult</p>
+<p>Query Execution Time: @ViewBag.time ms</p>
+
+
+
+ <p>"status": "true", "query":"@ViewBag.outputQuery", "result": "@ViewBag.outputResult", "execution_time": @ViewBag.time}</p>
+
+
+
+
